@@ -1,5 +1,2 @@
-@Library("pui-pipeline")
-
-node {
-    uiPipeline()
-}
+@Library('pui-pipeline') _
+uiPipeline()
