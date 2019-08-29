@@ -1,3 +1,5 @@
 @Library("pui-pipeline")
 
-uiPipeline()
+node {
+    uiPipeline()
+}
