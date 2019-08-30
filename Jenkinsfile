@@ -10,15 +10,14 @@ pipeline {
   stages {
     stage ('Start') {
       steps {
-        // send build started notifications
+        echo "start"
       }
     }
-    uiPipeline()
     stage ('Test') {
       steps {
-        // run tests with coverage
-
+        echo "test"
       }
+      uiPipeline()
     }
   }
   post {
